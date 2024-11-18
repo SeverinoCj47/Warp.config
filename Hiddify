@@ -1,0 +1,21 @@
+//profile-title: base64:8J+UpSBXQVJQIPCflKU=
+//profile-update-interval: 24
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/hiddify
+//profile-web-page-url: https://hiddify.com
+
+warp://p1@188.114.97.170:500?ifp=50-100&ifps=50-150&ifpd=5-10&ifpm=m4&mtu=1400#m4&&detour=warp://p2@188.114.97.170:4198#warp in warp
+warp://p1@iygs--zocywdppmnwdnm:4500?ifp=5-10&ifps=20-50&ifpd=20-50&ifpm=m4&mtu=1400#LocalIP&&detour=warp://p2@162.159.192.1:988#WarpInWarp✅
+
+# Multiple Proxies for Load Balancing and Redundancy
+warp://p1@66.29.128.242:48582?ifp=50-100&ifps=50-150&ifpd=5-10&ifpm=m4&mtu=1400#SOCKS5Proxy1&&detour=warp://p2@188.114.97.170:4198#Warp SOCKS5
+warp://p1@192.252.215.5:4145?ifp=50-100&ifps=50-150&ifpd=5-10&ifpm=m4&mtu=1400#SOCKS5Proxy2&&detour=warp://p2@188.114.97.170:4198#Warp SOCKS5
+warp://p1@107.152.151.138:54321?ifp=50-100&ifps=50-150&ifpd=5-10&ifpm=m4&mtu=1400#SOCKS5Proxy3&&detour=warp://p2@188.114.97.170:4198#Warp SOCKS5
+
+#warp://auto?ifp=15-25&ifps=50-150&ifpd=15-25&mtu=1400#Warp_15-25_50-150_15-25
+#warp://auto?ifp=15-25&ifps=50-150&ifpd=40-70&mtu=1400#Warp_15-25_50-150_40-70
+#warp://auto?ifp=15-25&ifps=50-150&ifpd=300-600&mtu=1400#Warp_15-25_50-150_300-600
+
+#warp://auto?ifp=8-15&ifps=50-150&ifpd=15-25&mtu=1400#Warp_8-15_50-150_15-25
+#warp://auto?ifp=8-15&ifps=50-150&ifpd=40-70&mtu=1400#Warp_8-15_50-150_40-70
+#warp://auto?ifp=8-15&ifps=50-150&ifpd=300-600&mtu=1400#Warp_8-15_50-150_300-600
